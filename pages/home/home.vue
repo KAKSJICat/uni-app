@@ -110,10 +110,9 @@
       },
       
       gotoSearch() {
-        console.log('ok')
-        // uni.navigateTo({
-        //   url: '/subpkg/search/search'
-        // })
+        uni.navigateTo({
+          url: '/subpkg/search/search'
+        })
       }
     }
   }
